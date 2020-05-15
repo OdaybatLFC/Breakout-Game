@@ -1,0 +1,39 @@
+/* @name: mystylesheet.css
+ * @effects: Styles the design of the Breakout Game
+ * @ author: Aleksandar Odaybat
+ */
+
+/* Setting gray background color on the app  */
+body {
+    background-color: gray;
+}
+
+/* Setting the dimensions and position of the paddle */
+#mySVG {
+    height: 2.5vh;
+    width: 25vw;
+    position: absolute;
+    bottom: 10%;
+    left: calc(50% - 12.5vw);   /* == 37.5% */
+}
+
+#paddle {
+    height: 2.5vh;
+    width: 25vw;
+}
+
+#mySVG2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#mySVG3 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    stroke-width: 0.5%;
+    stroke: black;
+}
+
+
